@@ -23,6 +23,7 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - && \
     dpkg --unpack google-chrome-stable_current_amd64.deb && \
     apt-get install -f -y && \
     apt-get clean && \
-    rm google-chrome-stable_current_amd64.deb
+    rm google-chrome-stable_current_amd64.deb && \
+    apt-get install php7.1 php7.1-common
 
 CMD sbt
