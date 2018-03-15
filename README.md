@@ -8,6 +8,7 @@ A docker file for the Scala, SBT and Node.js stack. It contains the following te
 - NPM
 - Yarn
 - Chrome headless to run tests
+- php7.1 
 
 Chrome headless should be run with the --no-sandbox flag, otherwise it fails with the message:
 
